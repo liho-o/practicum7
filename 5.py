@@ -10,7 +10,7 @@ max_v = int(input())
 
 last_v = 1
 r = 1
-while max_v > last_v:
+while max_v > (r ** 3):
     last_v = r ** 3
     print(last_v, end=' ')
     r += 1
